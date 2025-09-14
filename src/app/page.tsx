@@ -43,7 +43,7 @@ export default function Home() {
               <h3 className="text-2xl font-bold text-center mb-4 text-gray-900 dark:text-white">Pro</h3>
               <p className="text-center text-gray-600 dark:text-gray-400 mb-8">For growing businesses</p>
               <p className="text-5xl font-bold text-center mb-8 text-gray-900 dark:text-white">$40<span className="text-lg font-normal">/mo</span></p>
-              <Button className_="w-full" onClick={() => localStorage.setItem('plan', 'Pro')}>Choose Plan</Button>
+              <Button className="w-full" onClick={() => localStorage.setItem('plan', 'Pro')}>Choose Plan</Button>
             </div>
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 transform hover:scale-105 transition-transform duration-300">
               <h3 className="text-2xl font-bold text-center mb-4 text-gray-900 dark:text-white">Enterprise</h3>
